@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('/img/Background\ 2.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            padding: 0;
+            margin: 0;
+        }
+        .header{
+            color: #181818;
+            font-family: Brush Script MT, Brush Script Std, cursive;
+            margin: 0;
+            padding: 0;
+            font-size: 60px;
+            text-align: center;
+        }
+        .mainbut{
+            font-family: oblique;
+            text-align: center;
+            padding:15px 20px 15px 0px;
+            margin-bottom: 20px;
+        }
+        .mainbut a{
+            padding: 15px 40px 15px 20px;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .mainbut a:hover{
+            padding: 15px 100px 15px 20px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            background-image: url('/img/Background\ 2.jpg');
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .mainbut a.active{
+            padding: 15px 100px 15px 20px;
+            color: rgb(0, 0, 0);
+        }
+        .bottom{
+            background-color: #181818;
+        }
+        .regbut{
+            color: aqua;
+            background-color: blueviolet;
+        }
+        .callbut{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        transition: transfrom .2s;
+        top: 90%;
+        left: 90%;
+        z-index: 1;
+        }
+        .callbut:hover {
+            -ms-transform: scale(1.5);
+            -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+        }
+        fieldset{
+            background-image: linear-gradient(to bottom right, rgb(104, 204, 243), rgb(241, 158, 91));
+            border-radius: 50px;
+            margin-right:25% ;
+            margin-left: 25%;
+            padding-left: 10%;
+            padding-right: 10%;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header"><h1 style="margin: 50px;">PC<sub>X</sub>MOBILE.COM</h1></div>
+    <div class="mainbut">
+        <a class="active" href="index.html">HOME</a>
+        <a href="Laptop.html">Laptops</a>
+        <a href="Mobile.html">Mobile</a>
+        <a href="Tablet.html">Tablets</a>
+        <a href="contactus.html">CONTACT US</a>
+    </div>
+
+    <div>
+        <form style="text-align: center;" action="action.php" method="post">
+        <fieldset>
+            <p>Enter Your Username / Email</p>
+            <input type="text" name="Email" placeholder="YOUR NAME Or Email">
+            <p>Enter Password</p>
+            <input type="password" name="Pass" placeholder="PASSWORD"><br><br>
+            <input type="submit" value="Sing in">
+        </fieldset>
+        </form>
+    </div>
+    <div><a href="https://www.nanotek.lk/product/127"><img class="callbut" src="/img/whatsapp2 (1).png" alt="call"></a></div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+body{
+	background-image: url('/img/Background\ 2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+}
+.header{
+	color: #181818;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	margin: 0;
+	padding: 0;
+	font-size: 60px;
+	text-align: center;
+}
+.mainbut{
+	font-family: oblique;
+	text-align: center;
+	padding:15px 20px 15px 0px;
+	margin-bottom: 20px;
+}
+.mainbut a{
+	padding: 15px 40px 15px 20px;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+.mainbut a:hover{
+	padding: 15px 100px 15px 20px;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	background-image: url('/img/Background\ 2.jpg');
+	text-decoration: underline;
+	cursor: pointer;
+}
+.mainbut a.active{
+	padding: 15px 100px 15px 20px;
+	color: rgb(0, 0, 0);
+}
+.bottom{
+	background-color: #181818;
+}
+.regbut{
+	color: aqua;
+	background-color: blueviolet;
+}
+th{
+	text-align: center;
+	font-weight: bolder;
+}
+
+button {
+	appearance: button;
+	background-color: #fffc65;
+	border: solid transparent;
+	border-radius: 16px;
+	border-width: 0 0 4px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: .8px;
+	line-height: 20px;
+	margin: 0;
+	outline: none;
+	overflow: visible;
+	padding: 13px 19px;
+	text-align: center;
+	text-transform: uppercase;
+	touch-action: manipulation;
+	transform: translateZ(0);
+	transition: filter .2s;
+	user-select: none;
+	-webkit-user-select: none;
+	vertical-align: middle;
+	white-space: nowrap;
+	}
+
+	button:after {
+		background-clip: padding-box;
+		background-color: #f84f4f;
+		border: solid transparent;
+		border-radius: 16px;
+		border-width: 0 0 4px;
+		bottom: -4px;
+		content: "";
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: -1;
+		}
+
+		button:main, button:focus {
+		user-select: auto;
+		}
+
+		button:hover:not(:disabled) {
+		filter: brightness(1.1);
+		}
+
+		button:disabled {
+		cursor: auto;
+		}
+
+		button:active:after {
+		border-width: 0 0 0px;
+		}
+
+		button:active {
+		padding-bottom: 10px;
+		}
+
+.callbut{
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	transition: transfrom .2s;
+	top: 90%;
+	left: 90%;
+	z-index: 1;
+}
+.callbut:hover {
+	-ms-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
